@@ -7,6 +7,10 @@ ul {
     margin: 0;
 }
 
+hr {
+    margin-top: 0px;
+}
+
 .title {
     margin-top: 25px;
     font-size: 22px;
@@ -24,6 +28,7 @@ ul {
 }
 
 .cv .cv__photo {
+    margin: 22px auto 0 auto;
     width: 240px;
     height: 240px;
     background: #D3D3D3;
@@ -37,10 +42,6 @@ ul {
     text-align: center;
     text-transform: uppercase;
     color: #264061;
-}
-
-.cv .cv__photo {
-    margin: 22px auto 0 auto;
 }
 
 .cv .cv__contacts-list {
@@ -71,8 +72,6 @@ ul {
     font-size: 14px;
 }
 
-.cv .cv__rectangle_mt55 {
-    bottom: 0;
-    left: 0;
+.cv .cv__rectangle_mt60 {
     margin-top: 60px;
 }
