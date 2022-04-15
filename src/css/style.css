@@ -2,6 +2,22 @@
     font-family: 'Roboto', sans-serif;
 }
 
+ul {
+    padding: 0 0 0 22px;
+    margin: 0;
+}
+
+.title {
+    margin-top: 25px;
+    font-size: 22px;
+    line-height: 26px;
+    color: #264061;
+}
+
+.cv .col-lg-8 {
+    margin-top: 33px;
+}
+
 .cv .cv__rectangle {
     height: 40px;
     background: #376193;
@@ -25,4 +41,38 @@
 
 .cv .cv__photo {
     margin: 22px auto 0 auto;
+}
+
+.cv .cv__contacts-list {
+    margin-top: 17.5px;
+    list-style: none;
+}
+
+.cv .cv__contacts-list-item {
+    margin-top: 6px;
+}
+
+.cv .cv__contacts-link {
+    padding-left: 5px;
+    font-size: 14px;
+    text-decoration: none;
+    color: #264061;
+}
+
+.cv .cv__contacts-link span, .cv__experience-item-head, .cv__education-item-head {
+    font-size: 18px;
+}
+
+.cv .cv__languages-list {
+    list-style: none;
+}
+
+.cv .cv__skills-list span, .cv__experience-item-descr, .cv__education-item-descr {
+    font-size: 14px;
+}
+
+.cv .cv__rectangle_mt55 {
+    bottom: 0;
+    left: 0;
+    margin-top: 60px;
 }
