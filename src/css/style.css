@@ -35,6 +35,26 @@ hr {
   border-radius: 120px;
 }
 
+.btn {
+  display: block;
+  margin-top: 30px;
+  padding: 10px 15px;
+  border: 1px solid #000;
+  text-decoration: none;
+  color: #000;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+  transition: .5s;
+}
+
+.btn:hover {
+  border: 1px solid #fff;
+  background: #376193;
+  color: #fff;
+  text-decoration: none;
+}
+
 .cv__full-name {
   margin-top: 33px;
   font-size: 29px;
